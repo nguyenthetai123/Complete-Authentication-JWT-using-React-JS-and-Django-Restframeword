@@ -160,6 +160,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
 ]
+CSRF_COOKIE_SECURE = True
 # Frontend/Backend Site Domain for Password Reset Link and Account Activation Link
 # If using ReactJS VueJS NextJS NuxtJS then you can replace with frontend domain
 SITE_DOMAIN = "http://localhost:8000"
